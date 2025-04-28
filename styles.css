@@ -1,0 +1,165 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    font-family: "Roboto", sans-serif;
+    background-color: #1f2937;
+    display: flex;
+    align-content: center;
+}
+
+.header-content {
+    display: flex;
+    padding: 20px 120px;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.header-content .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    
+}
+.header-content a, ul {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+    
+}
+
+.header a, .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    padding: 0px 120px 60px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.awesome h1 {
+    font-size: 58px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.left-awesome {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.awesome .text {
+    max-width: 500px;
+    font-size: 22px;
+}
+
+.larger-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 19px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    align-self: flex-start;
+}
+
+img {
+    min-height: 150px;
+    max-width: 300px;
+}
+
+.awesome .img {
+    align-items: center;
+}
+
+.random {
+    background-color: white;
+    flex-direction: row;
+    padding: 0 0px;
+}
+
+.box-and-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    width: 150px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    padding-bottom: 100px;
+    padding: 0 140px 100px;
+    flex-wrap: wrap;
+}
+
+.bunny {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    border: solid #3882f6 5px;
+    border-radius: 10px;
+}
+
+.subtext {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.random h2 {
+    display: block;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 60px 230px;
+
+    
+}
+
+.quote p {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote .person {
+    display: flex;
+    flex: 1;
+    font-size: 24px;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
