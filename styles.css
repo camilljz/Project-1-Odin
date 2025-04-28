@@ -163,3 +163,63 @@ img {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
+
+.signup {
+    margin: 50px 100px;
+    display: flex;
+}
+
+.bluebox {
+    background-color: #3882f6;
+    color: white;
+    padding: 40px 120px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.thetext {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.thetext h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+}
+
+.thetext p {
+    margin: 0;
+    padding: 5 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.bluebox .button {
+    background-color: #3882f6;
+    color: white;
+    border: white solid 2px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
